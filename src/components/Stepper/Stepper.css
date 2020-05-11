@@ -1,0 +1,47 @@
+.stepper-container {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  padding-top: 1rem;
+  margin-bottom: -2.5rem;
+}
+
+.stepper-wrapper {
+  padding: 1.5rem 1rem;
+  background: var(--color-orange-light);
+  border-radius: 100px;
+  display: flex;
+}
+
+.stepper-item {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.stepper-number {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--color-orange-medium);
+  color: var(--color-orange);
+  margin-right: 1rem;
+}
+
+.stepper-item.active .stepper-number {
+  background: var(--color-orange);
+  color: var(--color-white);
+}
+
+.stepper-arrow {
+  color: var(--color-orange);
+  transform: scaleY(1.5) scaleX(0.9);
+  margin-left: 2rem;
+}
+
+.stepper-label {
+  color: var(--color-orange);
+}
